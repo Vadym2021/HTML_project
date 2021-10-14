@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    background: #d5ffda;
+}
+h2{
+    text-align: center;
+    color: burlywood;
+    background: #d5ffda;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    border: 10px solid darkseagreen;
+
+}
+
+li{
+    text-align: center;
+   }
+a{
+    text-decoration: none;
+}
