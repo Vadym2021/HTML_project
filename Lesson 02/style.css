@@ -1,27 +1,56 @@
-h1{
+h1 {
     text-align: center;
-    color: burlywood;
-    background: #d5ffda;
-}
-h2{
-    text-align: center;
-    color: burlywood;
+    color: #399bff;
     background: #d5ffda;
 }
 
-p{
+h2 {
     text-align: center;
+    color: #399bff;
+    background: #d5ffda;
+}
+
+h1.mission {
+    text-align: center;
+    color: #ff702a;
+    background: #d5ffda;
+}
+
+p {
+    text-align: justify;
     font-style: italic;
 }
 
-img{
+p.img {
+    text-align: center;
+}
+
+img {
     border: 10px solid darkseagreen;
 
 }
 
-li{
+li {
     text-align: center;
-   }
-a{
+}
+
+a {
     text-decoration: none;
+    color: green;
+}
+
+.hitman {
+    color: crimson;
+}
+
+.btext {
+    font-size: 30px;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: crimson;
 }
