@@ -1,0 +1,23 @@
+.list {
+    background: #d5ffda;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pict {
+    border-radius: 50%;
+    background: #d5ffda;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background: #d5ffda;
+    display: flex;
+    justify-content: center;
+}
+.par{
+    background: #d5ffda;
+    font-style: italic;
+    text-align: justify;
+}
