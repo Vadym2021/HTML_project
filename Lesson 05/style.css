@@ -1,0 +1,112 @@
+.father {
+    /*display: flex;*/
+    background: black;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+
+
+}
+
+.father2 {
+    display: flex;
+    background: red;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+}
+
+.fatherline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: red;
+    width: 800px;
+    height: 300px;
+
+}
+
+.father600 {
+    display: flex;
+    background: blue;
+    width: 600px;
+    height: 300px;
+    flex-direction: column;
+
+}
+
+.father600nar {
+    display: flex;
+    background: wheat;
+    width: 600px;
+    height: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.a {
+    background: #69fffa;
+    width: 800px;
+    height: 300px;
+
+}
+
+.b {
+    background: saddlebrown;
+    width: 600px;
+    height: 300px;
+}
+
+.c {
+    background: #e635ff;
+    width: 200px;
+    height: 300px;
+}
+
+.menu {
+    background: darkgreen;
+    width: 200px;
+    height: 300px;
+}
+
+.post {
+    background: chartreuse;
+    width: 600px;
+    height: 300px;
+    margin-bottom: 3px;
+}
+
+.widget {
+    background: chartreuse;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.nav {
+    background: yellow;
+    width: 800px;
+    height: 100px;
+    align-items: center;
+}
+
+.line600 {
+    background: chartreuse;
+    width: 600px;
+    height: 100px;
+}
+
+.box100 {
+    background: orange;
+    width: 150px;
+    height: 90px;
+    margin: 3px;
+
+}
+
+.halfline {
+    background: orange;
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+}
