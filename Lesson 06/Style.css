@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bs {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.fgrow {
+    flex-grow: 1;
+}
+
+.gap {
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkgrey;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.curve10 {
+    border-radius: 10px;
+}
+
+.curve50 {
+    border-radius: 50px;
+}
+
+.curve100 {
+    border-radius: 100%;
+}
+
+.width100prs {
+    width: 100%;
+}
+
+.width80prs {
+    width: 80%;
+}
+
+.widrh33prs {
+    width: 32%;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.width400 {
+    width: 400px;
+}
+
+.width600 {
+    width: 600px;
+}
+
+.width800 {
+    width: 800px;
+}
+
+.height20 {
+    height: 20px;
+}
+
+.height200 {
+    height: 200px;
+}
+
+.height300 {
+    height: 300px;
+}
+
+.height400 {
+    height: 400px;
+}
+
+.height600 {
+    height: 600px;
+}
+
+.bggrey {
+    background: darkgrey;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.bgteal {
+    background: teal;
+}
+
+.margin3 {
+    margin: 3px;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+
+.border3 {
+    border: 3px solid;
+}
+
+.border5 {
+    border: 5px solid;
+    border-color: dimgray;
+}
+
+.text {
+    text-align: center;
+    /*color: teal;*/
+}
+
+.padside {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.padtopbot {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.spacebet {
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+

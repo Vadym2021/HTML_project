@@ -1,0 +1,358 @@
+
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --aqua: aqua;
+    --blue: darkslategray;
+    --light: azure;
+}
+
+.baqua {
+    background-color: var(--aqua);
+}
+
+.bblue {
+    background-color: var(--blue);
+}
+
+.blight {
+    background-color: var(--light);
+}
+
+.bred {
+    background-color: red;
+}
+
+/*.global {*/
+/*    display: flex;*/
+/*}*/
+
+.upper {
+    display: flex;
+    background-color: var(--blue);
+    justify-content: space-between;
+}
+
+.central {
+    display: flex;
+    background-color: var(--light);
+    justify-content: space-between;
+    height: 60px;
+}
+
+.upmenu {
+    display: flex;
+    background-color: var(--aqua);
+    justify-content: space-between;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    /*background-color: var(--light);*/
+    justify-content: space-between;
+    height: 220px;
+}
+
+.main-title {
+    display: flex;
+    background-color: var(--aqua);
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.gallery {
+    display: flex;
+    /*background-color: var(--aqua);*/
+    /*justify-content: space-between;*/
+    flex-direction: column;
+    justify-items: center;
+    row-gap: 10px;
+}
+
+.nav {
+    display: flex;
+    /*background-color: var(--aqua);*/
+    justify-content: space-between;
+    /*flex-direction: column;*/
+    justify-items: center;
+    column-gap: 10px;
+}
+
+.wink {
+    display: flex;
+    /*background-color: var(--light);*/
+    height: 200px;
+}
+
+.review {
+    display: flex;
+    /*background-color: var(--light);*/
+    height: 450px;
+}
+
+.bottom {
+    display: flex;
+    /*background-color: var(--light);*/
+    height: 150px;
+}
+
+.element {
+    width: 20px;
+    height: 20px;
+}
+
+.element.thin {
+    height: 4px;
+}
+
+.element.long50 {
+    width: 50px;
+}
+
+.element.long100 {
+    width: 100px;
+}
+
+.element.wide10 {
+    height: 10px;
+}
+
+.element.wide20 {
+    height: 20px;
+}
+
+.element.wide40 {
+    height: 40px;
+}
+
+.element.br5 {
+    border-radius: 5px;
+}
+
+.element.br10 {
+    border-radius: 10px;
+}
+
+.element.menu {
+    height: 200px;
+    width: 200px;
+}
+
+.element.gallery {
+    height: 200px;
+    width: 200px;
+}
+
+.element.menu.center {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.element.nav-left {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.element.nav-right {
+    height: 400px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 5px;
+    padding: 40px 0;
+}
+
+.element.nav-middle {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    row-gap: 5px;
+    padding: 5px;
+}
+
+.element.review-block {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    row-gap: 5px;
+    padding: 5px;
+}
+
+.element.review-circle {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.element.review-right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    row-gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: left;
+    align-items: center;
+    transition: color .5s;
+    cursor: pointer;
+}
+
+.element.review-right:hover {
+    background-color: var(--aqua);
+}
+
+.element.bottom-middle {
+    width: 20px;
+    height: 20px;
+}
+
+.upper-twin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 20%;
+    background-color: var(--aqua);
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+.container.border {
+    border: 3px solid var(--aqua);
+}
+
+.container.gall {
+    width: 60%;
+    align-self: center;
+}
+
+.container.nav {
+    /*width: 60%;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /*border-right: 3px solid var(--aqua);*/
+}
+
+.container.nav.brright {
+    border-right: 3px solid var(--aqua);
+}
+
+.container.brtop {
+    border-top: 3px solid var(--aqua);
+}
+
+.container.nav.block {
+    /*width: 60%;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 3px solid var(--aqua);
+}
+
+.container.space-between {
+    justify-content: space-between;
+}
+
+.container.toleft {
+    justify-content: flex-start;
+    padding: 100px;
+}
+
+.container.brblock {
+    border: 3px solid var(--aqua);
+}
+
+.container.review-common {
+    padding: 0 80px;
+    height: 100%;
+    /*row-gap: 0px;*/
+    column-gap: 5px;
+
+}
+
+.container.review-common-left {
+    height: 80%;
+    width: 60%;
+    align-items: end;
+    /*row-gap: 0px;*/
+    /*column-gap: 0px;*/
+
+}
+
+.container.review-common-right {
+    height: 80%;
+    width: 40%;
+    align-items: center;
+    /*row-gap: 0px;*/
+    /*column-gap: 0px;*/
+    border-radius: 10px;
+}
+
+.container.review-talign-left {
+    align-items: flex-start;
+
+}
+
+.container.bottom-common {
+
+}
+
+.container.bottom-left {
+    width: 65%;
+    height: 100%;
+    justify-content: space-between;
+
+
+}
+
+.container.alleft {
+    justify-content: flex-start;
+
+}
+
+.container.bottom-right {
+    width: 12%;
+    height: 100%
+}
+
+.text-nav {
+    text-align: justify;
+}
+
+.text-rewiw {
+    text-align: left;
+    color: var(--blue)
+}
+
