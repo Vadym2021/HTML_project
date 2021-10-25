@@ -11,29 +11,79 @@
 
     .container.bblue {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
-
-    .container.wrapper.review-common {
+    .review {
         flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .container.review-common {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .container.review-common-left {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .container.review-common-right {
         flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .element.review-right {
+        height: 100%;
+        height: auto;
+        /*display: flex;*/
+        /*row-gap: 5px;*/
+        /*padding: 5px;*/
+        /*border-radius: 10px;*/
+        /*justify-content: left;*/
+        /*align-items: center;*/
+        /*transition: color .5s;*/
+        /*cursor: pointer;*/
     }
 
     .container.brblock {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .container.bottom-common {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .element.gallery {
         width: 100%;
+        height: auto;
+    }
+    .container.bottom-left {
+        width: 100%;
+        height: auto;
+    }
+    .container.bottom-right {
+        width: 100%;
+        height: auto;
+    }
+    .wink {
+        width: 100%;
+        height: auto;
+    }
+    .container.toleft {
+        width: 100%;
+        height: auto;
+    }
+    .element.review-circle {
+        width: 100%;
+        height: auto;
     }
 }

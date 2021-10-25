@@ -94,6 +94,7 @@
     display: flex;
     /*background-color: var(--light);*/
     height: 200px;
+    justify-items: center;
 }
 
 .review {
@@ -292,6 +293,7 @@
 
 .container.brblock {
     border: 3px solid var(--aqua);
+    display: flex;
 }
 
 .container.review-common {
@@ -307,6 +309,7 @@
     height: 100%;
     width: 60%;
     align-items: end;
+    display: flex;
     /*flex-grow: 1;*/
     /*row-gap: 0px;*/
     /*column-gap: 0px;*/
@@ -314,6 +317,7 @@
 }
 
 .container.review-common-right {
+    display: flex;
     height: 100%;
     width: 40%;
     align-items: center;
