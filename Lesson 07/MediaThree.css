@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px) {
+    .container.blight.border.gall {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container.blight.gall {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container.bblue {
+        flex-direction: column;
+    }
+
+    .container.wrapper.review-common {
+        flex-direction: column;
+    }
+
+    .container.review-common-left {
+        flex-direction: column;
+    }
+
+    .container.review-common-right {
+        flex-direction: column;
+    }
+
+    .container.brblock {
+        flex-direction: column;
+    }
+
+    .container.bottom-common {
+        flex-direction: column;
+    }
+
+    .element.gallery {
+        width: 100%;
+    }
+}
