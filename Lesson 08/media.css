@@ -1,0 +1,131 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        /*display: none;*/
+        position: absolute;
+        flex-direction: column;
+        top: 65px;
+        background-color: #000000;
+        height: 93vh;
+        width: 103%;
+        left: -4px;
+        padding-top: 50px;
+
+    }
+
+
+    .header__contact {
+        flex-direction: column;
+        row-gap: 5px;
+        margin-top: 25px;
+    }
+
+
+    .nav {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .header__logo img {
+        width: 50px;
+
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+        position: relative;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+        width: 30px;
+        flex-direction: column;
+        row-gap: 4px;
+
+    }
+
+    .nav__btn_mobile div {
+        height: 3px;
+        background: #FF7400;
+        border-radius: 50px;
+
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
+
+    .header__phone {
+        border: none;
+    }
+
+
+    .mask {
+        position: unset;
+        flex-direction: column;
+    }
+
+    .mask__group {
+        width: 400px;
+    }
+
+    .space {
+        display: none;
+    }
+
+    .story.up {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story {
+        width: 400px;
+        padding: 0px;
+    }
+
+    .story .left {
+        flex-direction: column;
+        /*width: 100vh;*/
+        width: 400px;
+    }
+
+
+    .story.right {
+        /*position: unset;*/
+        width: 400px;
+    }
+
+
+    .story.up {
+        flex-direction: column;
+    }
+
+    .story .right {
+        width: 100%;
+        /*background-color: red;*/
+        left: 150px;
+    }
+
+}
+
+
+
