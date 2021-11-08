@@ -1,0 +1,272 @@
+@media screen and (max-width: 320px) {
+    :root {
+        --width_proj: 320px;
+
+    }
+
+
+    .wrapper {
+        width: 320px;
+        padding: 0px 0px;
+    }
+
+    .header_info {
+        flex-direction: column;
+    }
+
+    .header_nav_start {
+        flex-direction: column;
+
+    }
+
+    .header_nav_end {
+        flex-direction: column;
+    }
+
+    .vis_top {
+        flex-direction: column;
+    }
+
+
+    .vistop_adv {
+
+        width: 310px;
+        margin-top: 10px;
+        padding: 30px 10px;
+    }
+
+    .container.action {
+        width: 300px;
+    }
+
+    .sus {
+        width: 50%;
+    }
+
+    .sus_adv_image {
+        width: 50%;
+        align-self: start;
+    }
+
+
+    .vis_bottom_slider {
+        flex-direction: column;
+    }
+
+    .container.vis_bot_men_element {
+        width: 98%;
+    }
+
+    .container.vis_bot_men_element_left {
+        padding: 0;
+    }
+
+
+    .container.news_title {
+        flex-direction: column;
+    }
+
+    .container.news_timeline {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .container.timeline_element {
+        width: 100%;
+        /*background-color: red;*/
+    }
+
+
+    .header {
+        display: none;
+    }
+
+    .header_media {
+        display: block;
+    }
+
+    .header_nav {
+        /*margin-top: 20px;*/
+    }
+
+    .header_info {
+        flex-direction: row;
+        column-gap: 5px;
+        margin-top: 10px;
+    }
+
+    .header_nav_start {
+        width: 100%;
+        /*justify-content: space-between;*/
+        flex-direction: row;
+        /*max-width: 1920px;*/
+        padding: 8px 8px;
+        align-items: center;
+        /*background-color: red;*/
+    }
+
+    .zap_left {
+        width: 47%;
+    }
+
+    .zap_right {
+        width: 53%;
+        align-items: flex-end;
+        row-gap: 3px;
+        padding-right: 5px;
+    }
+
+    .zap_whatsapp {
+        margin-top: 10px;
+
+    }
+
+    .zap_bottom {
+        /*width: 100%;*/
+        margin-top: 10px;
+        padding: 0px 10px;
+        column-gap: 30px;
+        justify-content: space-between;
+    }
+
+    .subscribe_form_media {
+        width: 100%;
+        border: none;
+        background-color: #F4F5FA;
+        border-radius: 5px;
+    }
+
+    .form_email_media {
+        /*padding: 10px;*/
+        width: 85%;
+
+    }
+
+    .form_button_media {
+        background-color: #005BB9;
+        padding: 5px;
+        border-radius: 0px 5px 5px 0px;
+        width: 15%;
+    }
+
+    .goods_top_menu {
+        /*flex-direction: column;*/
+        /*display: none;*/
+        width: 95%;
+    }
+
+    .goods_table {
+        justify-content: flex-start;
+
+    }
+
+    .container .goods_element {
+        width: 42%;
+
+    }
+
+    .container.goods_el_img {
+        height: 121px;
+        width: 154px;
+
+
+    }
+
+
+    .container .sus_01 {
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0A1A2C;
+
+    }
+
+    .container .sus_02 {
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #717171;
+
+    }
+
+    .container .sus_03 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #005BB9;
+
+    }
+
+    .container.sus_04 {
+        display: none;
+    }
+
+    .container.sus_05 {
+        display: none;
+    }
+
+    .container.sus_06 {
+        position: absolute;
+        bottom: 10px;
+        column-gap: 20px;
+        flex-shrink: 1;
+    }
+
+    .container.news_timeline {
+        margin-top: 20px;
+        column-gap: 0px;
+    }
+
+    .container .timeline_element {
+        width: 100%;
+        /*column-gap: 15px;*/
+        column-gap: 10px;
+        row-gap: 0px;
+    }
+
+    .bottom {
+        padding-left: 15px;
+    }
+
+    .bottom_nav_info {
+        flex-direction: column;
+    }
+
+    .bottom_nav {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .bottom_info_cont_adress {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 15px;
+    }
+
+    .bottom_info_feedback {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .bottom_social {
+        justify-content: left;
+        /*padding-left: 15px;*/
+    }
+
+    .bottom_signature {
+
+    }
+
+}
