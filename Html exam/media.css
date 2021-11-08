@@ -156,12 +156,15 @@
     }
 
     .goods_table {
-        justify-content: flex-start;
+        justify-content: center;
+        row-gap: 5px;
+        column-gap: 5px;
 
     }
 
     .container .goods_element {
-        width: 42%;
+        width: 48%;
+        justify-content: space-between;
 
     }
 
